@@ -350,12 +350,12 @@ function Contact() {
               <div className="bg-primary/5 p-6 rounded-xl border border-primary/10">
                 <MapPin className="w-6 h-6 text-secondary mb-3" />
                 <h4 className="font-bold text-primary mb-1">Location</h4>
-                <p className="text-sm text-muted-foreground">123 Luxury Avenue, Metropolis</p>
+                <p className="text-sm text-muted-foreground">Fair Look Beauty Parlour, Vijayawada, Andhra Pradesh</p>
               </div>
             </div>
             <div className="w-full h-64 rounded-xl overflow-hidden bg-muted">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.001696423075!2d77.591299714822!3d12.971598790855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU4JzE3LjgiTiA3N8KwMzUnMzYuNiJF!5e0!3m2!1sen!2sin!4v1634567890123!5m2!1sen!2sin" 
+                src="https://maps.google.com/maps?q=16.4638362,80.7179541&z=17&output=embed" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
