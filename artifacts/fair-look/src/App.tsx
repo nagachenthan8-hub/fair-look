@@ -363,6 +363,14 @@ function Contact() {
                 loading="lazy">
               </iframe>
             </div>
+            <a
+              href="https://maps.app.goo.gl/bUAGG3Uk4BAkpTbd8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 px-5 py-2.5 rounded-lg text-sm font-medium transition-colors"
+            >
+              <MapPin className="w-4 h-4" /> Open in Maps
+            </a>
           </div>
           <div className="bg-card border border-border p-8 rounded-2xl shadow-lg">
             <h3 className="text-2xl font-serif text-primary mb-6">Reservation Form</h3>
