@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Fair Look Beauty Parlour"
+version = "1.0.0"
+id = "artifacts/fair-look"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21332
+
+[services.development]
+run = "pnpm --filter @workspace/fair-look run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/fair-look", "run", "build" ]
+publicDir = "artifacts/fair-look/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21332"
+BASE_PATH = "/"

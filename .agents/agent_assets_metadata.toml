@@ -1,0 +1,32 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "0nmL84yjYPBHgW8pYqg-w"
+uri = "file://artifacts/fair-look/public/images/bridal-showcase.png"
+type = "image"
+title = "Bridal makeup luxury Indian bride"
+
+[[generated]]
+id = "0YOQIIt5sKLfjFzv4MLkx"
+uri = "file://artifacts/fair-look/public/images/gallery-interior.png"
+type = "image"
+title = "Luxury salon interior emerald sand"
+
+[[generated]]
+id = "E5za8Mihr0PR4Jyno8LhT"
+uri = "file://artifacts/fair-look/public/images/gallery-hair.png"
+type = "image"
+title = "Professional hair styling luxury salon"
+
+[[generated]]
+id = "p7ABzB-l_XLWQr4Omn9YY"
+uri = "file://artifacts/fair-look/public/images/gallery-skin.png"
+type = "image"
+title = "Premium skin care facial spa"
+
+[[generated]]
+id = "UiZ2kZWO8SO2J_nWN9Da6"
+uri = "file://artifacts/fair-look/public/images/gallery-nails.png"
+type = "image"
+title = "Manicure pedicure luxury setup"

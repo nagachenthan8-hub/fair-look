@@ -1,0 +1,360 @@
+Create a premium, luxury, fully responsive website for "Fair Look Beauty Parlour" that helps attract new customers, showcase beauty services, increase appointment bookings, and establish a strong online presence.
+
+WEBSITE PURPOSE:
+This website should serve as a complete digital beauty destination where customers can explore services, view makeover galleries, check pricing, read reviews, learn about the salon, and instantly book appointments through WhatsApp or an online booking system.
+
+DESIGN STYLE:
+- Luxury Beauty Salon Theme
+- Elegant Pink, Rose Gold, White, and Cream color palette
+- Modern Glassmorphism UI
+- Premium beauty-brand aesthetics
+- Smooth animations and transitions
+- Elegant typography
+- Soft shadows and gradients
+- Mobile-first responsive design
+- Fast loading
+- SEO optimized
+- Premium international salon appearance
+
+HERO SECTION:
+Create a stunning full-screen hero section.
+
+Business Name:
+Fair Look Beauty Parlour
+
+Headline:
+"Enhancing Beauty, Confidence & Elegance"
+
+Subheadline:
+"Professional Beauty Care, Bridal Makeup, Hair Styling, Skin Treatments, and Complete Grooming Services."
+
+CTA Buttons:
+- Book Appointment
+- WhatsApp Now
+- View Services
+
+Features:
+- Luxury beauty-themed background
+- Soft floating particles
+- Smooth entrance animations
+- Premium visual effects
+- Scroll indicator
+
+
+ABOUT US SECTION:
+
+Heading:
+"About Fair Look Beauty Parlour"
+
+Content:
+Introduce the salon as a trusted beauty destination offering professional beauty and grooming services. Highlight customer satisfaction, hygiene standards, premium beauty products, experienced beauticians, and personalized care.
+
+Animated Counters:
+- Happy Clients
+- Bridal Makeovers
+- Beauty Services
+- Years of Experience
+
+SERVICES SECTION:
+
+Create premium interactive service cards.
+
+HAIR SERVICES:
+- Hair Cut
+- Hair Styling
+- Hair Spa
+- Hair Coloring
+- Hair Smoothening
+- Hair Straightening
+
+SKIN CARE:
+- Facial
+- Cleanup
+- Detan Treatment
+- Bleach
+- Skin Polishing
+
+MAKEUP SERVICES:
+- Bridal Makeup
+- Engagement Makeup
+- Reception Makeup
+- Party Makeup
+
+BEAUTY CARE:
+- Eyebrow Shaping
+- Threading
+- Waxing
+- Manicure
+- Pedicure
+
+Each Service Card Should Include:
+- Service Image/Icon
+- Service Description
+- Hover Animation
+- Pricing
+- Book Now Button
+
+BRIDAL MAKEUP SHOWCASE:
+
+Create a premium bridal beauty section.
+
+Include:
+- Bridal transformation gallery
+- Bridal package highlights
+- Bridal before-and-after showcase
+- Bridal testimonials
+- Featured bridal offers
+- Luxury visual design
+
+PRICING SECTION:
+
+Create elegant interactive pricing cards.
+
+HAIR SERVICES:
+Hair Cut – ₹199
+Hair Wash & Blow Dry – ₹299
+Hair Spa – ₹799
+Hair Coloring – ₹1,499
+Hair Smoothening – ₹3,999
+Hair Straightening – ₹4,999
+
+SKIN CARE SERVICES:
+Cleanup – ₹399
+Fruit Facial – ₹699
+Gold Facial – ₹999
+Diamond Facial – ₹1,499
+Detan Treatment – ₹599
+Skin Polishing – ₹1,999
+Bleach – ₹299
+
+MAKEUP SERVICES:
+Party Makeup – ₹1,499
+Engagement Makeup – ₹3,999
+Reception Makeup – ₹4,999
+HD Bridal Makeup – ₹7,999
+Premium Bridal Makeup – ₹12,999
+
+BEAUTY CARE SERVICES:
+Eyebrows – ₹50
+Upper Lip – ₹30
+Threading – ₹100
+Full Face Threading – ₹199
+Waxing (Half Hands) – ₹299
+Waxing (Full Hands) – ₹499
+Waxing (Half Legs) – ₹399
+Waxing (Full Legs) – ₹699
+Manicure – ₹499
+Pedicure – ₹699
+
+BRIDAL PACKAGES:
+
+Silver Bridal Package – ₹5,999
+Includes:
+- Bridal Makeup
+- Hairstyling
+- Saree Draping
+
+Gold Bridal Package – ₹9,999
+Includes:
+- HD Bridal Makeup
+- Hairstyling
+- Saree Draping
+- Facial
+
+Platinum Bridal Package – ₹14,999
+Includes:
+- Premium Bridal Makeup
+- Hairstyling
+- Saree Draping
+- Facial
+- Manicure
+- Pedicure
+
+Pricing Features:
+- Interactive pricing cards
+- Popular package highlight
+- Hover animations
+- Category filters
+- Search functionality
+- Book Now buttons
+
+SERVICE COST CALCULATOR:
+
+Create an interactive beauty package calculator.
+
+Features:
+- Select multiple services
+- Real-time price calculation
+- Discount application
+- Booking summary generation
+- WhatsApp booking integration
+- Modern luxury UI
+
+Display:
+- Selected Services
+- Subtotal
+- Discount
+- Final Amount
+
+GALLERY SECTION:
+
+Create a premium interactive gallery.
+
+Include:
+- Bridal Makeup Photos
+- Hair Styling Results
+- Facial Treatments
+- Customer Transformations
+- Salon Interior
+- Beauty Service Showcase
+
+Gallery Features:
+- Masonry Layout
+- Lightbox Preview
+- Image Zoom Effects
+- Category Filtering
+- Before-and-After Comparisons
+
+WHY CHOOSE US SECTION:
+
+Display using premium animated icons.
+
+Reasons:
+✓ Experienced Beauticians
+✓ Premium Beauty Products
+✓ Hygienic Environment
+✓ Affordable Packages
+✓ Bridal Specialists
+✓ Personalized Service
+✓ Customer Satisfaction
+✓ Modern Beauty Techniques
+
+CUSTOMER TESTIMONIALS SECTION:
+
+Create a modern testimonial carousel.
+
+Include:
+- Customer Image
+- Star Rating
+- Review Text
+- Customer Name
+- Auto Sliding Animation
+
+SPECIAL OFFERS SECTION:
+
+Create attractive promotional cards.
+
+Examples:
+- Bridal Package Discounts
+- Festival Beauty Offers
+- Facial + Hair Spa Combo
+- Seasonal Promotions
+
+Features:
+- Countdown Timer
+- Animated Offer Cards
+- Book Now Buttons
+
+BOOK APPOINTMENT SECTION:
+
+Create a professional booking system.
+
+Fields:
+- Full Name
+- Mobile Number
+- Email Address
+- Service Selection
+- Preferred Date
+- Preferred Time
+- Additional Notes
+
+Buttons:
+- Book Appointment
+- WhatsApp Booking
+
+CONTACT SECTION:
+
+Display:
+- Salon Address
+- Phone Number
+- WhatsApp Number
+- Email Address
+- Business Hours
+
+Use elegant contact cards.
+
+GOOGLE MAPS SECTION:
+
+Embed salon location.
+
+Features:
+- Interactive Map
+- Get Directions Button
+- Location Information Card
+
+WHATSAPP INTEGRATION:
+
+Add floating WhatsApp button visible across all pages.
+
+Functions:
+- Instant inquiry
+- Appointment booking
+- Service consultation
+
+FAQ SECTION:
+
+Create modern accordion FAQs.
+
+Questions:
+- Do I need an appointment?
+- What bridal packages are available?
+- What payment methods are accepted?
+- How long does a facial take?
+- Do you offer party makeup services?
+- Are walk-ins accepted?
+
+FOOTER SECTION:
+
+Include:
+- Business Logo
+- Quick Links
+- Services Menu
+- Contact Information
+- Social Media Icons
+- Copyright Notice
+- Privacy Policy
+- Terms & Conditions
+
+ADVANCED FEATURES:
+
+- Smooth Scrolling
+- Scroll-triggered Animations
+- Interactive Hover Effects
+- Animated Statistics
+- Loading Animation
+- Sticky Navigation Bar
+- Scroll-to-Top Button
+- Mobile Responsive Design
+- SEO Optimization
+- Performance Optimization
+- Lazy Loading Images
+- Modern UI Components
+- Accessibility Compliance
+
+SEO REQUIREMENTS:
+
+- Local SEO Optimization
+- Beauty Salon Keywords
+- Meta Tags
+- Structured Data Markup
+- Fast Page Speed
+- Search Engine Friendly URLs
+
+BRAND MESSAGE:
+
+Fair Look Beauty Parlour is dedicated to helping clients look beautiful, feel confident, and enjoy professional beauty care in a luxurious, hygienic, and welcoming environment.
+
+FINAL GOAL:
+
+Create a visually stunning, luxury beauty salon website that looks like a premium international beauty brand, builds trust instantly, showcases services and pricing professionally, highlights bridal expertise, provides an exceptional user experience, and maximizes appointment bookings through WhatsApp and online forms.
+```
