@@ -355,7 +355,7 @@ function Contact() {
             </div>
             <div className="w-full h-64 rounded-xl overflow-hidden bg-muted">
               <iframe 
-                src="https://maps.google.com/maps?q=Seeta+Mahalaxmi+Vari+Veedhi,+opposite+chinna+gudi,+Penamaluru,+Andhra+Pradesh+521139&z=17&output=embed" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3828.92!2d80.71795414!3d16.46383620!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35fb86cdec0973:0x95628520ebc3f037!2sFair%20Look%20Beauty%20Parlour!5e0!3m2!1sen!2sin!4v1718000000000!5m2!1sen!2sin" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
@@ -363,14 +363,6 @@ function Contact() {
                 loading="lazy">
               </iframe>
             </div>
-            <a
-              href="https://maps.app.goo.gl/bUAGG3Uk4BAkpTbd8"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 px-5 py-2.5 rounded-lg text-sm font-medium transition-colors"
-            >
-              <MapPin className="w-4 h-4" /> Open in Maps
-            </a>
           </div>
           <div className="bg-card border border-border p-8 rounded-2xl shadow-lg">
             <h3 className="text-2xl font-serif text-primary mb-6">Reservation Form</h3>
