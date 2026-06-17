@@ -88,7 +88,7 @@ function Navbar() {
   return (
     <header className={`fixed top-0 z-50 w-full transition-all duration-300 ${scrolled ? 'bg-primary/95 backdrop-blur-md shadow-md py-3' : 'bg-transparent py-5'}`}>
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <a href="#" className={`font-serif text-2xl font-bold ${scrolled ? 'text-secondary' : 'text-secondary'}`}>Fair Look</a>
+        <a href="#" className={`font-serif text-2xl font-bold ${scrolled ? 'text-secondary' : 'text-secondary'}`}>Fair Look Beauty Parlour</a>
         <nav className="hidden lg:flex gap-8 text-sm font-medium">
           {links.map(l => (
             <a key={l} href={`#${l.toLowerCase()}`} className={`transition-colors hover:text-secondary ${scrolled ? 'text-primary-foreground' : 'text-primary-foreground'}`}>{l}</a>
@@ -437,7 +437,7 @@ function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div>
-            <h3 className="font-serif text-2xl font-bold text-secondary mb-4">Fair Look</h3>
+            <h3 className="font-serif text-2xl font-bold text-secondary mb-4">Fair Look Beauty Parlour</h3>
             <p className="text-primary-foreground/70 mb-6">Premium luxury beauty parlour offering bespoke grooming and bridal services.</p>
           </div>
           <div>
