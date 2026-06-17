@@ -163,11 +163,32 @@ function About() {
   return (
     <section id="about" className="py-24 bg-background">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif text-primary mb-6">About Fair Look Beauty Parlour</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            Fair Look is more than just a salon; it's a sanctuary of beauty and relaxation. We pride ourselves on offering a deeply personal experience wrapped in luxury. With stringent hygiene protocols, premium international products, and a team of highly experienced beauticians, we ensure every visit leaves you feeling confident and radiant.
-          </p>
+        <div className="grid lg:grid-cols-2 gap-14 items-center mb-16">
+          <div>
+            <h2 className="text-4xl md:text-5xl font-serif text-primary mb-6">About Fair Look Beauty Parlour</h2>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Fair Look is more than just a salon; it's a sanctuary of beauty and relaxation. We pride ourselves on offering a deeply personal experience wrapped in luxury. With stringent hygiene protocols, premium international products, and a team of highly experienced beauticians, we ensure every visit leaves you feeling confident and radiant.
+            </p>
+          </div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            className="relative flex items-center justify-center"
+          >
+            <div className="relative rounded-2xl overflow-hidden shadow-xl w-full max-w-sm mx-auto">
+              <div className="absolute inset-0 bg-primary/30 mix-blend-multiply z-10 rounded-2xl" />
+              <img
+                src="/images/beauty-quote.png"
+                alt="Love of beauty is taste. The creation of beauty is art."
+                className="w-full h-auto object-cover"
+                style={{ filter: "sepia(40%) saturate(120%) hue-rotate(95deg) brightness(0.92)" }}
+              />
+            </div>
+            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-secondary/20 rounded-full blur-2xl" />
+            <div className="absolute -top-4 -left-4 w-20 h-20 bg-primary/20 rounded-full blur-2xl" />
+          </motion.div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {[
