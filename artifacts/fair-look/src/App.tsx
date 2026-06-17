@@ -350,12 +350,12 @@ function Contact() {
               <div className="bg-primary/5 p-6 rounded-xl border border-primary/10">
                 <MapPin className="w-6 h-6 text-secondary mb-3" />
                 <h4 className="font-bold text-primary mb-1">Location</h4>
-                <p className="text-sm text-muted-foreground">Fair Look Beauty Parlour, Vijayawada, Andhra Pradesh</p>
+                <p className="text-sm text-muted-foreground">Seeta Mahalaxmi Vari Veedhi, opposite chinna gudi, Penamaluru, Andhra Pradesh 521139</p>
               </div>
             </div>
             <div className="w-full h-64 rounded-xl overflow-hidden bg-muted">
               <iframe 
-                src="https://maps.google.com/maps?q=16.4638362,80.7179541&z=17&output=embed" 
+                src="https://maps.google.com/maps?q=Seeta+Mahalaxmi+Vari+Veedhi,+opposite+chinna+gudi,+Penamaluru,+Andhra+Pradesh+521139&z=17&output=embed" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
