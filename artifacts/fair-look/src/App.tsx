@@ -49,49 +49,10 @@ const TRAINING_COURSES = [
   { name: "Complete Beauty Course", duration: "3 months", learn: "Comprehensive training covering hair, skin, makeup, and salon management." }
 ];
 
-const PRICING = {
-  "Hair Services": [
-    { name: "Hair Cut", price: 199 },
-    { name: "Hair Wash & Blow Dry", price: 299 },
-    { name: "Hair Spa", price: 799 },
-    { name: "Hair Coloring", price: 1499 },
-    { name: "Hair Smoothening", price: 3999 },
-    { name: "Hair Straightening", price: 4999 },
-  ],
-  "Skin Care": [
-    { name: "Cleanup", price: 399 },
-    { name: "Fruit Facial", price: 699 },
-    { name: "Gold Facial", price: 999 },
-    { name: "Diamond Facial", price: 1499 },
-    { name: "Detan", price: 599 },
-    { name: "Skin Polishing", price: 1999 },
-    { name: "Bleach", price: 299 },
-  ],
-  "Makeup": [
-    { name: "Party", price: 1499 },
-    { name: "Engagement", price: 3999 },
-    { name: "Reception", price: 4999 },
-    { name: "HD Bridal", price: 7999 },
-    { name: "Premium Bridal", price: 12999 },
-  ],
-  "Beauty Care": [
-    { name: "Eyebrows", price: 50 },
-    { name: "Upper Lip", price: 30 },
-    { name: "Threading", price: 100 },
-    { name: "Full Face Threading", price: 199 },
-    { name: "Waxing Half Hands", price: 299 },
-    { name: "Full Hands", price: 499 },
-    { name: "Half Legs", price: 399 },
-    { name: "Full Legs", price: 699 },
-    { name: "Manicure", price: 499 },
-    { name: "Pedicure", price: 699 },
-  ]
-};
-
 const BRIDAL_PACKAGES = [
-  { name: "Silver", price: 5999, details: "Basic bridal makeup, simple hair styling, saree draping." },
-  { name: "Gold", price: 9999, details: "HD bridal makeup, advanced hair styling, premium jewelry styling, saree draping.", popular: true },
-  { name: "Platinum", price: 14999, details: "Airbrush bridal makeup, luxury hair styling, floral setting, pre-bridal cleanup, trial session." }
+  { name: "Silver", details: "Basic bridal makeup, simple hair styling, saree draping." },
+  { name: "Gold", details: "HD bridal makeup, advanced hair styling, premium jewelry styling, saree draping.", popular: true },
+  { name: "Platinum", details: "Airbrush bridal makeup, luxury hair styling, floral setting, pre-bridal cleanup, trial session." }
 ];
 
 const TESTIMONIALS = [
@@ -107,7 +68,7 @@ const FAQS = [
   { q: "What bridal packages are available?", a: "We offer Silver, Gold, and Platinum bridal packages. Our Gold package is the most popular, featuring HD makeup and advanced hair styling." },
   { q: "What payment methods are accepted?", a: "We accept all major credit/debit cards, UPI, Google Pay, and cash." },
   { q: "How long does a facial take?", a: "A standard facial takes about 45 to 60 minutes, while premium facials like Diamond or Gold may take up to 90 minutes." },
-  { q: "Do you offer party makeup services?", a: "Yes, we offer specialized party makeup starting at ₹1,499." },
+  { q: "Do you offer party makeup services?", a: "Yes, we offer specialized party makeup for all occasions. Contact us to know more." },
   { q: "Are walk-ins accepted?", a: "Yes, subject to availability. However, appointments get priority." }
 ];
 
@@ -122,7 +83,7 @@ function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const links = ["About", "Services", "Training", "Bridal", "Pricing", "Gallery", "Contact"];
+  const links = ["About", "Services", "Training", "Bridal", "Gallery", "Contact"];
 
   return (
     <header className={`fixed top-0 z-50 w-full transition-all duration-300 ${scrolled ? 'bg-primary/95 backdrop-blur-md shadow-md py-3' : 'bg-transparent py-5'}`}>
@@ -310,7 +271,6 @@ function Bridal() {
                   {pkg.popular && <span className="absolute -top-3 right-6 bg-secondary text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Most Popular</span>}
                   <div className="flex justify-between items-center mb-2">
                     <h4 className="text-xl font-serif text-primary">{pkg.name} Package</h4>
-                    <span className="text-xl font-bold text-secondary">₹{pkg.price.toLocaleString()}</span>
                   </div>
                   <p className="text-sm text-muted-foreground">{pkg.details}</p>
                 </div>
@@ -327,126 +287,6 @@ function Bridal() {
   );
 }
 
-function Pricing() {
-  return (
-    <section id="pricing" className="py-24 bg-primary text-primary-foreground">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif text-secondary mb-4">Transparent Pricing</h2>
-          <p className="text-lg text-primary-foreground/80">Premium services at fair value.</p>
-        </div>
-        <Tabs defaultValue="Hair Services" className="w-full max-w-4xl mx-auto">
-          <TabsList className="grid w-full grid-cols-2 lg:grid-cols-4 h-auto bg-primary-foreground/10 p-1 rounded-xl mb-8">
-            {Object.keys(PRICING).map(cat => (
-              <TabsTrigger key={cat} value={cat} className="py-3 text-sm md:text-base data-[state=active]:bg-secondary data-[state=active]:text-secondary-foreground rounded-lg">
-                {cat}
-              </TabsTrigger>
-            ))}
-          </TabsList>
-          {Object.entries(PRICING).map(([category, items]) => (
-            <TabsContent key={category} value={category} className="mt-0">
-              <div className="bg-primary-foreground/5 backdrop-blur border border-primary-foreground/10 rounded-2xl p-6 md:p-8">
-                <div className="grid gap-4">
-                  {items.map((item, i) => (
-                    <div key={i} className="flex justify-between items-center border-b border-primary-foreground/10 pb-4 last:border-0 last:pb-0">
-                      <span className="text-lg">{item.name}</span>
-                      <span className="text-xl font-serif text-secondary font-bold">₹{item.price}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </TabsContent>
-          ))}
-        </Tabs>
-      </div>
-    </section>
-  );
-}
-
-function Calculator() {
-  const [selected, setSelected] = useState<string[]>([]);
-  
-  const allServices = Object.values(PRICING).flat();
-  
-  const total = selected.reduce((sum, name) => {
-    const s = allServices.find(x => x.name === name);
-    return sum + (s ? s.price : 0);
-  }, 0);
-  
-  const discount = total > 5000 ? total * 0.1 : 0;
-  const finalTotal = total - discount;
-
-  const handleToggle = (name: string) => {
-    if (selected.includes(name)) setSelected(selected.filter(x => x !== name));
-    else setSelected([...selected, name]);
-  };
-
-  return (
-    <section className="py-24 bg-background">
-      <div className="container mx-auto px-4 max-w-5xl">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-serif text-primary mb-4">Service Cost Calculator</h2>
-          <p className="text-muted-foreground">Estimate your customized beauty package. 10% off on packages over ₹5,000.</p>
-        </div>
-        <div className="grid md:grid-cols-2 gap-12">
-          <div className="bg-card border border-border p-6 rounded-2xl h-[500px] flex flex-col">
-            <h3 className="text-xl font-serif text-primary mb-4">Select Services</h3>
-            <div className="overflow-y-auto pr-4 space-y-4 flex-1">
-              {allServices.map(s => (
-                <div key={s.name} className="flex items-center space-x-3 bg-secondary/5 p-3 rounded-lg border border-secondary/20 cursor-pointer hover:bg-secondary/10" onClick={() => handleToggle(s.name)}>
-                  <div className={`w-5 h-5 rounded border flex items-center justify-center ${selected.includes(s.name) ? 'bg-secondary border-secondary text-secondary-foreground' : 'border-muted-foreground'}`}>
-                    {selected.includes(s.name) && <CheckCircle className="w-3 h-3" />}
-                  </div>
-                  <div className="flex-1 font-medium">{s.name}</div>
-                  <div className="text-secondary font-bold">₹{s.price}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="bg-primary text-primary-foreground p-8 rounded-2xl flex flex-col justify-between shadow-xl">
-            <div>
-              <h3 className="text-2xl font-serif text-secondary mb-6">Your Package Estimate</h3>
-              {selected.length === 0 ? (
-                <p className="text-primary-foreground/60 italic">No services selected.</p>
-              ) : (
-                <div className="space-y-3 mb-6 max-h-[250px] overflow-y-auto pr-2">
-                  {selected.map(name => {
-                    const s = allServices.find(x => x.name === name);
-                    return (
-                      <div key={name} className="flex justify-between text-sm">
-                        <span>{name}</span>
-                        <span>₹{s?.price}</span>
-                      </div>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-            <div className="border-t border-primary-foreground/20 pt-6">
-              <div className="flex justify-between mb-2">
-                <span>Subtotal</span>
-                <span>₹{total}</span>
-              </div>
-              {discount > 0 && (
-                <div className="flex justify-between mb-2 text-secondary">
-                  <span>Discount (10%)</span>
-                  <span>-₹{discount.toFixed(0)}</span>
-                </div>
-              )}
-              <div className="flex justify-between text-2xl font-serif font-bold mt-4">
-                <span>Total</span>
-                <span className="text-secondary">₹{finalTotal.toFixed(0)}</span>
-              </div>
-              <Button className="w-full mt-8 bg-secondary text-secondary-foreground hover:bg-secondary/90" disabled={selected.length === 0}>
-                WhatsApp This Package
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
 
 function Gallery() {
   const images = [
@@ -584,7 +424,6 @@ function Footer() {
             <ul className="space-y-2 text-primary-foreground/70">
               <li><a href="#about" className="hover:text-secondary">About Us</a></li>
               <li><a href="#services" className="hover:text-secondary">Services</a></li>
-              <li><a href="#pricing" className="hover:text-secondary">Pricing</a></li>
               <li><a href="#gallery" className="hover:text-secondary">Gallery</a></li>
             </ul>
           </div>
@@ -665,8 +504,6 @@ function Home() {
         <Services />
         <Training />
         <Bridal />
-        <Pricing />
-        <Calculator />
         <Gallery />
         <Contact />
         <Faq />
